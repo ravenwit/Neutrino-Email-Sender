@@ -1,0 +1,13 @@
+Smtp Servers
+
+Gmail            :  smtp.gmail.com        587
+Hotmail          :  smtp.live.com         25
+Yahoo            :  smtp.mail.yahoo.com   25
+Lycos            :  smtp.mail.lycos.com   25
+Aol              :  smtp.aol.com          587
+Rambler.ru       :  smtp.rambler.ru       25
+Mail.ru          :  smtp.mail.ru          2525
+Yandex.ru        :  smtp.yandex.ru        25
+Meta.ua          :  smtp.meta.ua          465
+Ukr.net          :  smtp.ukr.net          465
+facebook         : smtpout.mx.facebook.com 25

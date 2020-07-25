@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Neutrino_Email_Sender.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <userSettings>
+        <Neutrino_Email_Sender.My.MySettings>
+            <setting name="Host" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Port" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="GMID" serializeAs="String">
+                <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</value>
+            </setting>
+            <setting name="GMPass" serializeAs="String">
+                <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</value>
+            </setting>
+            <setting name="YahID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="YahPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="HotID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="HotPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LyID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LyPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="AolID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="AolPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="RamID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="RamPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MailID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MailPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="YanID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="YanPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MetaID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MetaPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UkID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UkPass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ID" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ToEmail" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>s.ahmed7733@gmail.com</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+            <setting name="Login" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="UserName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="DeFont" serializeAs="String">
+                <value>Comic Sans MS, 8.25pt</value>
+            </setting>
+            <setting name="DeForColor" serializeAs="String">
+                <value>LemonChiffon</value>
+            </setting>
+            <setting name="DeBaColor" serializeAs="String">
+                <value>Black</value>
+            </setting>
+            <setting name="PrintFont" serializeAs="String">
+                <value>Microsoft Sans Serif, 24pt</value>
+            </setting>
+        </Neutrino_Email_Sender.My.MySettings>
+    </userSettings>
+</configuration>
